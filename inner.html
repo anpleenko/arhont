@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Arhont</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A responsive website template made exclusively by themeum">
+	<meta name="author" content="themeum">
+	<!-- FAVICON -->
+
+	<link rel="shortcut icon" href="favicons/favicon.png">
+	<meta name="msapplication-config" content="favicons/browserconfig.xml">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="css/jquery.webui-popover.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+
+
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Header scripts -->
+	<script src="js/modernizr-2.8.3.min.js"></script>
+	<script src="js/queryloader2.min.js"></script>
+
+	<!-- =========================
+	   Preloader
+	============================== -->
+	<script>
+		window.addEventListener('DOMContentLoaded', function() {
+			"use strict";
+			new QueryLoader2(document.querySelector("body"), {
+				barColor: "#1674C4",
+				backgroundColor: "#fff",
+				percentage: true,
+				barHeight: 1,
+				minimumTime: 200,
+				fadeOutTime: 1000
+			});
+		});
+	</script>
+</head> <!-- head -->
+<body>
+
+	<!-- ============== start wrapper  ============== -->
+	<div id="wrapper">
+		<!-- main-nav -->
+		<div class="main-nav zoomInNew">
+			<div class="logo-left">
+				<a href="index.html" class="pull-left">
+					<img src="img/logo-header.png" alt="logo">
+					<span class="logo-text">Arhont</span>
+				</a>
+
+				<a href="javascript:void(0)" class="menu-trigger visible-xs-inline-block visible-sm-inline-block">
+				   <i class="fa fa-bars"></i>
+				</a>
+			</div>
+
+			<ul class="header-menu-list cleafix visible-md visible-lg">
+				<li> <a href="#">Home</a> </li>
+				<li> <a href="#">About</a> </li>
+				<li> <a href="#">Service</a> </li>
+				<li> <a href="#">Portfolio</a> </li>
+				<li> <a href="#">News</a> </li>
+			</ul>
+
+			<!-- <div class="languages">
+				<ul class="list-inline">
+					<li class="active"><a href="#">EN</a></li>
+					<li class="disabled"><a href="#">FR</a></li>
+					<li class=""><a href="#" class="btn btn-2 btn-primary btn-main">Feedback</a></li>
+				</ul>
+			</div> -->
+		</div> <!-- //end main-nav -->
+
+
+		<!--=========================
+			Start area for Menu
+		============================== -->
+		<nav class="nav-menu">
+			<div class="nav-header overflow">
+				<a href="index.html"><img src="img/logo-nav.png" class="pull-left" alt="logo"></a>
+				<p class="dismiss-button pull-right animated zoomIn">
+					<img src="img/dismiss.png" alt="dismiss">
+				</p>
+			</div>
+			<ul>
+				<li class="active"><a href="index.html">home <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li><a href="about.html">About <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li><a href="services.html">Service <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li><a href="portfolio.html">Portfolio <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li><a href="blog.html">Blog <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li><a href="contact.html">Contact <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+			</ul>
+		</nav>
+		<!-- End of menu area -->
+
+		<!-- ============== Start breadcrumbs ============== -->
+		<section id="contact-breadcrumbs" class="text-center">
+			<div class="ptt80" style="background: url(../img/inner_header_bg.png) no-repeat center center;">
+				<div class="container">
+					<h3 class="section-title wow fadeInDown">SUCCESS STORIES</h3>
+					<p class="section-info col-sm-6 col-sm-offset-3 wow fadeInDown" data-wow-delay=".25s">
+						Our examples below, demonstrate how we are constantly working with our clients to meet the challenge of successfully delivering information security services.
+					</p>
+					<p class="col-sm-6 col-sm-offset-3 wow fadeInDown mtb40">
+						They can be downloaded here<br>
+						<a href="#">Success Stories.pdf</a>
+					</p>
+				</div>
+			</div> <!-- //container -->
+		</section>
+		<!-- ========= //End breadcrumbs ========= -->
+
+
+		<!-- ========= //Start accordion ========= -->
+		<section class="main-accordion ptt80">
+			<div class="container">
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+				  <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingOne">
+					  <h4 class="panel-title">
+						<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							<span class="media">
+								<span class="media-left media-middle">
+									<img src="img/icon/ico_acordion.png" alt="ico">
+								</span>
+								<span class="media-body">
+									<strong>"A Hacker Discount"</strong>
+									<p>If issues remained undetected and unresolved, the retailer could have suffered severe monetary losses from both the online shopping card abuse and services availability disruption.</p>
+								</span>
+							</span>
+						</a>
+					  </h4>
+					</div>
+					<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+						<div class="panel-body">
+							<strong>Customer</strong>
+							<p>Major online multimedia content retailer.</p>
+
+							<strong>Challenge</strong>
+							<p>The enterprise was concerned about illicit remote access to it's digital assets and “hacktivist” attacks by various software pirate groups. They asked us to verify whether such activities can or can not be successful and advise on deploying the most suitable countermeasures and safeguards to counter them.</p>
+
+							<strong>Solution</strong>
+							<p>A full external security assessment was performed to determine weak spots that can be abused by the aforementioned attacker types. In the process of testing we have uncovered a method of modifying the input to buy music and video clips from the company's website at a fraction of the original price. Besides, two novel denial of service (DoS) attacks against industry standard firewalls protecting the retailer's network perimeter were discovered. Proof of concept code was written to demonstrate these attacks to the customer technical team and the firewalls manufacturer.</p>
+
+							<strong>Result</strong>
+							<p>The shopping card flaw was fixed by it's vendor ASAP, while the DoS issues were resolved by the firewalls manufacturer with the next operating system release. There was no need to deploy any additional safeguards by the retailer's IT & information security team.</p>
+
+							<strong>Benefit</strong>
+							<p>If these issues remained undetected and unresolved, the retailer could have suffered severe monetary losses from both the online shopping card abuse and services availability disruption. As the tests demonstrated that when all bugs are fixed the existing defences are sufficient, the customer has abandoned the plans to acquire costly application layer firewalls.</p>
+						</div>
+					</div>
+				  </div>
+				  <div class="panel panel-default">
+					<div class="panel-heading" role="tab" id="headingTwo">
+						<h4 class="panel-title">
+							<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								<span class="media">
+									<span class="media-left media-middle">
+										<img src="img/icon/ico_acordion.png" alt="ico">
+									</span>
+									<span class="media-body">
+										<strong>"A Hacker Discount"</strong>
+										<p>If issues remained undetected and unresolved, the retailer could have suffered severe monetary losses from both the online shopping card abuse and services availability disruption.</p>
+									</span>
+								</span>
+							</a>
+						</h4>
+					</div>
+						<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="panel-body">
+								<strong>Customer</strong>
+								<p>Major online multimedia content retailer.</p>
+
+								<strong>Challenge</strong>
+								<p>The enterprise was concerned about illicit remote access to it's digital assets and “hacktivist” attacks by various software pirate groups. They asked us to verify whether such activities can or can not be successful and advise on deploying the most suitable countermeasures and safeguards to counter them.</p>
+
+								<strong>Solution</strong>
+								<p>A full external security assessment was performed to determine weak spots that can be abused by the aforementioned attacker types. In the process of testing we have uncovered a method of modifying the input to buy music and video clips from the company's website at a fraction of the original price. Besides, two novel denial of service (DoS) attacks against industry standard firewalls protecting the retailer's network perimeter were discovered. Proof of concept code was written to demonstrate these attacks to the customer technical team and the firewalls manufacturer.</p>
+
+								<strong>Result</strong>
+								<p>The shopping card flaw was fixed by it's vendor ASAP, while the DoS issues were resolved by the firewalls manufacturer with the next operating system release. There was no need to deploy any additional safeguards by the retailer's IT & information security team.</p>
+
+								<strong>Benefit</strong>
+								<p>If these issues remained undetected and unresolved, the retailer could have suffered severe monetary losses from both the online shopping card abuse and services availability disruption. As the tests demonstrated that when all bugs are fixed the existing defences are sufficient, the customer has abandoned the plans to acquire costly application layer firewalls.</p>
+							</div>
+						</div>
+					</div>
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab" id="headingThree">
+							<h4 class="panel-title">
+								<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									<span class="media">
+										<span class="media-left media-middle">
+											<img src="img/icon/ico_acordion.png" alt="ico">
+										</span>
+										<span class="media-body">
+											<strong>"A Hacker Discount"</strong>
+											<p>If issues remained undetected and unresolved, the retailer could have suffered severe monetary losses from both the online shopping card abuse and services availability disruption.</p>
+										</span>
+									</span>
+								</a>
+							</h4>
+						</div>
+						<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+							<div class="panel-body">
+								<strong>Customer</strong>
+								<p>Major online multimedia content retailer.</p>
+
+								<strong>Challenge</strong>
+								<p>The enterprise was concerned about illicit remote access to it's digital assets and “hacktivist” attacks by various software pirate groups. They asked us to verify whether such activities can or can not be successful and advise on deploying the most suitable countermeasures and safeguards to counter them.</p>
+
+								<strong>Solution</strong>
+								<p>A full external security assessment was performed to determine weak spots that can be abused by the aforementioned attacker types. In the process of testing we have uncovered a method of modifying the input to buy music and video clips from the company's website at a fraction of the original price. Besides, two novel denial of service (DoS) attacks against industry standard firewalls protecting the retailer's network perimeter were discovered. Proof of concept code was written to demonstrate these attacks to the customer technical team and the firewalls manufacturer.</p>
+
+								<strong>Result</strong>
+								<p>The shopping card flaw was fixed by it's vendor ASAP, while the DoS issues were resolved by the firewalls manufacturer with the next operating system release. There was no need to deploy any additional safeguards by the retailer's IT & information security team.</p>
+
+								<strong>Benefit</strong>
+								<p>If these issues remained undetected and unresolved, the retailer could have suffered severe monetary losses from both the online shopping card abuse and services availability disruption. As the tests demonstrated that when all bugs are fixed the existing defences are sufficient, the customer has abandoned the plans to acquire costly application layer firewalls.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ========= //End accordion ========= -->
+
+		<div id="test-modal" class="mfp-hide white-popup-block mfp-hide" _lpchecked="1">
+			<div class="popup-body">
+				<strong>Customer</strong>
+				<p>Major online multimedia content retailer.</p>
+
+				<strong>Challenge</strong>
+				<p>The enterprise was concerned about illicit remote access to it's digital assets and “hacktivist” attacks by various software pirate groups. They asked us to verify whether such activities can or can not be successful and advise on deploying the most suitable countermeasures and safeguards to counter them.</p>
+
+				<strong>Solution</strong>
+				<p>A full external security assessment was performed to determine weak spots that can be abused by the aforementioned attacker types. In the process of testing we have uncovered a method of modifying the input to buy music and video clips from the company's website at a fraction of the original price. Besides, two novel denial of service (DoS) attacks against industry standard firewalls protecting the retailer's network perimeter were discovered. Proof of concept code was written to demonstrate these attacks to the customer technical team and the firewalls manufacturer.</p>
+
+				<strong>Result</strong>
+				<p>The shopping card flaw was fixed by it's vendor ASAP, while the DoS issues were resolved by the firewalls manufacturer with the next operating system release. There was no need to deploy any additional safeguards by the retailer's IT & information security team.</p>
+
+				<strong>Benefit</strong>
+				<p>If these issues remained undetected and unresolved, the retailer could have suffered severe monetary losses from both the online shopping card abuse and services availability disruption. As the tests demonstrated that when all bugs are fixed the existing defences are sufficient, the customer has abandoned the plans to acquire costly application layer firewalls.</p>
+			</div>
+		</div>
+
+		<!-- ============== Start filterable-portfolio ============== -->
+		<section id="filterable-portfolio" class="mtb100 ptt80">
+			<div class="container">
+				<div class="work-item branding">
+					<figure class="content wow fadeIn" data-wow-delay=".15s">
+						<a href="#test-modal" class="popup-modal">
+							<img src="img/portfolio/01.jpg" class="img-100p" alt="work">
+							<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"> <img src="img/work/icon.png" alt="icon"> </p>
+									<p class="title animated fadeInUp">jerky</p>
+								</div>
+							</figcaption>
+						</a>
+					</figure>
+				</div>
+				<div class="work-item branding development">
+					<figure class="content wow fadeIn" data-wow-delay=".25s">
+						<a href="#test-modal" class="popup-modal">
+							<img src="img/portfolio/02.jpg" class="img-100p" alt="work">
+							<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"> <img src="img/work/icon.png" alt="icon"></p>
+									<p class="title animated fadeInUp">shoulder</p>
+								</div>
+							</figcaption>
+						</a>
+					</figure>
+				</div>
+				<div class="work-item ecommerce development">
+					<figure class="content wow fadeIn" data-wow-delay=".35s">
+						<a href="#test-modal" class="popup-modal">
+							<img src="img/portfolio/03.jpg" class="img-100p" alt="work">
+							<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"> <img src="img/work/icon.png" alt="icon"> </p>
+									<p class="title animated fadeInUp">kevin</p>
+								</div>
+							</figcaption>
+						</a>
+					</figure>
+				</div>
+				<div class="work-item design photography branding">
+					<figure class="content wow fadeIn" data-wow-delay=".45s">
+						<a href="#test-modal" class="popup-modal">
+							<img src="img/portfolio/04.jpg" class="img-100p" alt="work">
+							<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"> <img src="img/work/icon.png" alt="icon"> </p>
+									<p class="title animated fadeInUp">fatback</p>
+								</div>
+							</figcaption>
+						</a>
+					</figure>
+				</div>
+				<div class="work-item photography design">
+					<figure class="content wow fadeIn" data-wow-delay=".55s">
+						<a href="#test-modal" class="popup-modal">
+							<img src="img/portfolio/05.jpg" class="img-100p" alt="work">
+							<figcaption class="caption-full-width">
+							<div class="caption horizontal-vertical-center">
+								<p class="icon animated fadeInDown"> <img src="img/work/icon.png" alt="icon"> </p>
+								<p class="title animated fadeInUp">tongue</p>
+							</div>
+							</figcaption>
+						</a>
+					</figure>
+				</div>
+				<div class="work-item development branding">
+					<figure class="content wow fadeIn" data-wow-delay=".65s">
+						<a href="#test-modal" class="popup-modal">
+							<img src="img/portfolio/06.jpg" class="img-100p" alt="work">
+							<figcaption class="caption-full-width">
+							<div class="caption horizontal-vertical-center">
+								<p class="icon animated fadeInDown"> <img src="img/work/icon.png" alt="icon"> </p>
+								<p class="title animated fadeInUp">Ribeye</p>
+							</div>
+							</figcaption>
+						</a>
+					</figure>
+				</div>
+				<div class="work-item development  design">
+					<figure class="content wow fadeIn" data-wow-delay=".75s">
+						<a href="#test-modal" class="popup-modal">
+							<img src="img/portfolio/07.jpg" class="img-100p" alt="work">
+							<figcaption class="caption-full-width">
+							<div class="caption horizontal-vertical-center">
+								<p class="icon animated fadeInDown"> <img src="img/work/icon.png" alt="icon"> </p>
+								<p class="title animated fadeInUp">sausage</p>
+							</div>
+							</figcaption>
+						</a>
+					</figure>
+				</div>
+				<div class="work-item photography branding">
+					<figure class="content wow fadeIn" data-wow-delay=".85s">
+						<a href="#test-modal" class="popup-modal">
+							<img src="img/portfolio/08.jpg" class="img-100p" alt="work">
+							<figcaption class="caption-full-width">
+							<div class="caption horizontal-vertical-center">
+								<p class="icon animated fadeInDown"> <img src="img/work/icon.png" alt="icon"> </p>
+								<p class="title animated fadeInUp">rump</p>
+							</div>
+							</figcaption>
+						</a>
+					</figure>
+				</div>
+				<div class="work-item photography branding">
+					<figure class="content wow fadeIn" data-wow-delay=".95s">
+						<a href="#test-modal" class="popup-modal">
+							<img src="img/portfolio/09.jpg" class="img-100p" alt="work">
+							<figcaption class="caption-full-width">
+							<div class="caption horizontal-vertical-center">
+								<p class="icon animated fadeInDown"> <img src="img/work/icon.png" alt="icon"> </p>
+								<p class="title animated fadeInUp">MAGLIT</p>
+							</div>
+						</figcaption>
+						</a>
+					</figure>
+				</div>
+			</div>
+		</section>
+		<!-- ========= //End filterable-portfolio ========= -->
+
+		<!-- ========= //Start content ========= -->
+		<section class="mtb100 ptt80 content-section">
+			<div class="container">
+				<h1>Lorem ipsum dolor.</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto quo eligendi pariatur explicabo eos labore provident, ad, facilis consequatur tenetur nam! Reprehenderit autem officiis rem quo aspernatur aliquid vero doloremque harum, commodi sapiente. Hic provident explicabo consequatur ullam incidunt cum neque sapiente adipisci accusamus velit! Totam obcaecati molestias earum voluptates!</p>
+
+				<h3>Lorem ipsum dolor sit.</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit perferendis illum, sit reprehenderit tempore, quae odio natus ullam, ut ex nisi obcaecati architecto error quasi, voluptatem voluptates voluptate molestiae facere fuga dolorem praesentium aliquam debitis quos cum? Iusto, atque, cum eligendi perferendis id corporis, eius nemo accusamus autem molestias sed!</p>
+
+				<blockquote>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+				</blockquote>
+
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<td>Lorem.</td>
+							<td>Lorem ipsum dolor sit amet.</td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas, maiores!</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, deleniti, quaerat. Odio reprehenderit porro expedita voluptate, aspernatur saepe quasi voluptatem consectetur nihil fugit aperiam eveniet suscipit numquam voluptates deserunt maiores consequatur modi sit similique quo illo asperiores distinctio blanditiis quidem. Eveniet nesciunt laboriosam distinctio. Rem, praesentium eaque eveniet dicta a.</td>
+						</tr>
+						<tr>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, inventore.</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos totam nisi dolores excepturi itaque suscipit! Sint inventore enim amet id, dolore reprehenderit architecto culpa accusantium cumque sed, cupiditate repudiandae veritatis est non. Tenetur ratione ab commodi perferendis aperiam. Nobis ullam, ad dolorem praesentium. Enim cupiditate voluptatem numquam. Molestiae, quod autem.</td>
+						</tr>
+						<tr>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, accusamus!</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi optio nobis officiis voluptates accusantium, magni impedit esse molestiae nostrum nemo, aut veniam odio, libero, quos! Sapiente deleniti accusantium impedit quo fugiat, porro molestiae, eos, quibusdam odit illum explicabo sunt voluptatem? Dolore odio harum nulla nobis id, sequi itaque eius, qui?</td>
+						</tr>
+						<tr>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam, esse!</td>
+							<td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quod velit fuga labore aliquam saepe consequatur quos. Quam consequuntur dignissimos obcaecati beatae enim doloribus at facere, et voluptatibus ducimus facilis, optio omnis commodi reprehenderit, tempora tempore? Animi accusantium inventore, nihil est veniam fugit laudantium cumque iure, quos vitae, molestias neque!</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<div class="row">
+					<div class="col-md-7">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam adipisci quod quo voluptatibus nesciunt, accusamus veritatis. Quibusdam dignissimos fugit et iusto voluptates dolores repudiandae aperiam, dolore cum, hic laboriosam explicabo provident ipsa perspiciatis, suscipit reprehenderit cupiditate quia impedit nihil delectus quod maxime doloremque ad. Voluptates debitis odit, delectus pariatur incidunt, perferendis eum. Doloremque delectus incidunt sunt dolores qui minus excepturi accusamus quas doloribus omnis, pariatur velit accusantium odit, beatae perspiciatis est expedita illum, iste corporis neque dolor autem! Vel neque cum voluptas molestiae earum saepe necessitatibus dolore beatae, animi rem ducimus vero ipsam illo ratione, quaerat dolorum voluptatibus alias molestias.</p>
+					</div>
+					<div class="col-md-5">
+						<img src="img/portfolio/08.jpg" alt="img" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ========= //End content ========= -->
+
+		<!-- ============== Start twitter section ============== -->
+		<section id="twitter">
+			<div>
+				<a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+				<a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-8 col-xs-offset-2">
+							<div class="twitter-icon text-center hidden-sm hidden-xs">
+								<p>
+									<img src="img/icon/twitter.png" alt="twitter" class="img-100p">
+								</p>
+							</div>
+							<div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+										<p class="info">Check out 'Kings multipurpose html template' on #Shapebootstrap</p>
+										<p class="link"> by <span>@themeum</span><a href="#"> #Shapebootstrap http://tllg.net/8szMvf5t</a></p>
+									</div>
+									<div class="item">
+										<p class="info">Check out 'Kings multipurpose html template' on #Shapebootstrap</p>
+										<p class="link"> by <span>@themeum</span><a href="#"> #Shapebootstrap http://tllg.net/8szMvf5t</a></p>
+									</div>
+									<div class="item">
+										<p class="info">Check out 'Kings multipurpose html template' on #Shapebootstrap</p>
+										<p class="link"> by <span>@themeum</span><a href="#"> #Shapebootstrap http://tllg.net/8szMvf5t</a></p>
+									</div>
+								</div>
+							</div> <!-- //twitter-carousel -->
+						</div>
+					</div> <!-- //row -->
+				</div> <!-- //container -->
+			</div>
+		</section>
+		<!-- ========= //End twitter section ========= -->
+
+		<!-- ============== Start footer ============== -->
+		<section id="footer">
+			<div class="color-overlay">
+				<div class="container">
+					<div class="row footer-adress">
+						<div class="col-md-4">
+							<div class="footer-logo">
+								<div class="transform-middle">
+									<img src="img/logo-footer.png" alt="logo">
+								</div>
+							</div>
+							<!-- <ul class="nav-footer list-inline mtb30">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul> -->
+							<!-- <ul class="social-icon-footer list-inline">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul> -->
+						</div>
+
+						<div class="col-md-4">
+							<div class="address-wrap">
+								<div class="transform-middle">
+									<address>
+										<strong>Address:</strong>
+										Regus, Highbridge Oxford Road Uxbridge, UB8 1HR
+									</address>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="address-wrap">
+								<div class="transform-middle">
+									<address>
+										<strong>Phone number:</strong>
+										+44 (0) 870 44 31337 (UK)<br>
+										+44 (0) 203 6277092 (Int)<br>
+
+										<strong>Email:</strong>
+										<a href="mailto:info@arhont.com">info@arhont.com</a>
+									</address>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			 </div>
+
+			<!-- copyright -->
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="info text-center">
+								&copy; Copyright by Arhonts 2016
+							</p>
+						</div>
+					</div> <!-- //row -->
+				</div> <!-- //container -->
+			</div> <!-- //end copyright -->
+		</section>
+		<!-- ========= //End footer ========= -->
+
+	</div> <!-- //end wrapper -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- animation effects -->
+  <script src="js/wow.min.js"></script>
+  <!-- count-down -->
+  <script src="js/jquery.inview.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <!-- content slider -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- lightbox -->
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <!-- smooth scrool -->
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/jquery.webui-popover.min.js"></script>
+  <!-- custom js -->
+  <script src="js/app.js"></script>
+</body>
+</html>

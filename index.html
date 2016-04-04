@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Arhont</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A responsive website template made exclusively by themeum">
+	<meta name="author" content="themeum">
+	<!-- FAVICON -->
+
+	<link rel="shortcut icon" href="favicons/favicon.png">
+	<meta name="msapplication-config" content="favicons/browserconfig.xml">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/jquery.webui-popover.css">
+	<link rel="stylesheet" href="css/owl.carousel.css">
+	<link rel="stylesheet" href="css/main.css">
+
+
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Header scripts -->
+	<script src="js/modernizr-2.8.3.min.js"></script>
+	<script src="js/queryloader2.min.js"></script>
+
+	<!-- =========================
+	   Preloader
+	============================== -->
+	<script>
+		window.addEventListener('DOMContentLoaded', function() {
+			"use strict";
+			new QueryLoader2(document.querySelector("body"), {
+				barColor: "#1674C4",
+				backgroundColor: "#fff",
+				percentage: true,
+				barHeight: 1,
+				minimumTime: 200,
+				fadeOutTime: 1000
+			});
+		});
+	</script>
+</head> <!-- head -->
+<body>
+
+	<div class="preload-bg"></div>
+
+	<!-- ============== start wrapper  ============== -->
+	<div id="wrapper">
+		<!-- main-nav -->
+		<div class="main-nav zoomInNew">
+			<div class="logo-left">
+				<a href="index.html" class="pull-left">
+					<img src="img/logo-header.png" alt="logo">
+					<span class="logo-text">Arhont</span>
+				</a>
+
+				<a href="javascript:void(0)" class="menu-trigger visible-xs-inline-block visible-sm-inline-block">
+				   <i class="fa fa-bars"></i>
+				</a>
+			</div>
+
+			<ul class="header-menu-list cleafix visible-md visible-lg">
+				<li>
+					<a href="#">Home</a>
+				</li>
+				<li>
+					<a href="#">About</a>
+					<ul>
+						<li><a href="#">sub item</a></li>
+						<li>
+							<a href="#">sub item</a>
+							<ul>
+								<li>
+									<a href="#">sub sub item</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Service</a>
+					<ul>
+						<li><a href="#">sub item</a></li>
+						<li>
+							<a href="#">sub item</a>
+							<ul>
+								<li>
+									<a href="#">sub sub item</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Portfolio</a>
+				</li>
+				<li>
+					<a href="#">News</a>
+				</li>
+			</ul>
+
+			<!-- <div class="languages">
+				<ul class="list-inline">
+					<li class="active"><a href="#">EN</a></li>
+					<li class="disabled"><a href="#">FR</a></li>
+					<li class=""><a href="#" class="btn btn-2 btn-primary btn-main">Feedback</a></li>
+				</ul>
+			</div> -->
+		</div> <!-- //end main-nav -->
+
+		<!--=========================
+			Start area for Menu
+		============================== -->
+		<nav class="nav-menu">
+			<div class="nav-header overflow">
+				<a href="index.html"><img src="img/logo-nav.png" class="pull-left" alt="logo"></a>
+				<p class="dismiss-button pull-right animated zoomIn">
+					<img src="img/dismiss.png" alt="dismiss">
+				</p>
+			</div>
+				<div id="mobile-menu" class="mobile-menu">
+					<div class="mobile-menu__group-panel list-group panel">
+						<a href="index.html" class="mobile-menu__link list-group-item">Home</a>
+						<a href="content.html" class="mobile-menu__link list-group-item">About</a>
+						<a href="#target-menu2" data-toggle="collapse" data-parent="#mobile-menu" class="mobile-menu__link list-group-item has-menu">Service</a>
+						<div id="target-menu2" class="mobile-menu__content collapse">
+							<a href="#" class="mobile-menu__link list-group-item">Пункт меню</a>
+							<a href="#target-submenu21" data-toggle="collapse" data-parent="#SubMenu1" class="mobile-menu__link list-group-item has-menu">Пункт меню</a>
+							<div id="target-submenu21" class="mobile-menu__content collapse list-group-submenu">
+								<a href="#" class="mobile-menu__link list-group-item">Пункт меню</a>
+								<a href="#" class="mobile-menu__link list-group-item">Пункт меню</a>
+								<a href="#" class="mobile-menu__link list-group-item">Пункт меню</a>
+								<a href="#" class="mobile-menu__link list-group-item">Пункт меню</a>
+							</div>
+							<a href="#" class="mobile-menu__link list-group-item">Пункт меню</a>
+							<a href="#" class="mobile-menu__link list-group-item">Пункт меню</a>
+							<a href="#" class="mobile-menu__link list-group-item">Пункт меню</a>
+						</div>
+						<a href="product.html" class="mobile-menu__link list-group-item">Portfolio</a>
+						<a href="deal.html" class="mobile-menu__link list-group-item">Blog</a>
+						<a href="deal.html" class="mobile-menu__link list-group-item">Contact</a>
+					</div>
+				</div>
+<!-- 			<ul>
+				<li class="active">
+					<a href="index.html" class="clearfix">
+						<span class="title animated fadeInRight">
+							home
+						</span>
+						<span class="info animated fadeInRight">
+							We are Jollyany and we make really beautiful and amazing stuff.
+						</span>
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="about.html" class="clearfix">
+						<span class="title animated fadeInRight">
+							About
+						</span>
+						<span class="info animated fadeInRight">
+							We are Jollyany and we make really beautiful and amazing stuff.
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="services.html" class="clearfix">
+						Service
+						<span class="info animated fadeInRight">
+							We are Jollyany and we make really beautiful and amazing stuff.
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="portfolio.html" class="clearfix">
+						Portfolio
+						<span class="info animated fadeInRight">
+							We are Jollyany and we make really beautiful and amazing stuff.
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="blog.html" class="clearfix">
+						Blog
+						<span class="info animated fadeInRight">
+							We are Jollyany and we make really beautiful and amazing stuff.
+						</span>
+					</a>
+				</li>
+				<li>
+					<a href="contact.html" class="clearfix">
+						Contact
+						<span class="info animated fadeInRight">
+							We are Jollyany and we make really beautiful and amazing stuff.
+						</span>
+					</a>
+				</li>
+			</ul> -->
+		</nav>
+		<!-- End of menu area -->
+
+		<!-- ============== start home section  ============== -->
+		<section id="home">
+			<div id="home-slider" class="carousel slide in" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="item active" style="background-image: url(img/slider/01.png)">
+						<div class="color-overlay">
+							<div class="caption">
+								<p class="slider-logo"><img src="img/logo.png" alt="logo"></p>
+								<!-- <h1 class="main-title wow fadeInUp" data-wow-delay=".25s">Go Beyond</h1> -->
+								<p class="sub-title wow fadeInUp" data-wow-delay=".75s">DEFINITIVE ANSWERS TO INFORMATION SECURITY CHALLENGES</p>
+							</div>
+						</div>
+					</div><!-- //item -->
+					<div class="item" style="background-image: url(img/slider/02.png)">
+						<div class="color-overlay">
+							<div class="caption">
+								<p class="slider-logo"><img src="img/logo.png" alt="logo"></p>
+								<!-- <h1 class="main-title wow fadeInUp" data-wow-delay=".25s">Go Beyond</h1> -->
+								<p class="sub-title wow fadeInUp" data-wow-delay=".75s">DEFINITIVE ANSWERS TO INFORMATION SECURITY CHALLENGES</p>
+							</div>
+						</div>
+					</div><!-- //item -->
+					<div class="item" style="background-image: url(img/slider/03.png)">
+					  <div class="color-overlay">
+						<div class="caption">
+								<p class="slider-logo"><img src="img/logo.png" alt="logo"></p>
+								<!-- <h1 class="main-title wow fadeInUp" data-wow-delay=".25s">Go Beyond</h1> -->
+								<p class="sub-title wow fadeInUp" data-wow-delay=".75s">DEFINITIVE ANSWERS TO INFORMATION SECURITY CHALLENGES</p>
+							</div>
+					  </div>
+					</div><!-- //item -->
+					<div class="item" style="background-image: url(img/slider/04.png)">
+					  <div class="color-overlay">
+						<div class="caption">
+								<p class="slider-logo"><img src="img/logo.png" alt="logo"></p>
+								<!-- <h1 class="main-title wow fadeInUp" data-wow-delay=".25s">Go Beyond</h1> -->
+								<p class="sub-title wow fadeInUp" data-wow-delay=".75s">DEFINITIVE ANSWERS TO INFORMATION SECURITY CHALLENGES</p>
+							</div>
+					  </div>
+					</div><!-- //item -->
+				</div>
+					<a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+					<a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+					<!-- arrow bellow -->
+				<a data-scroll id="arrow-bellow" href="#features"><img src="img/icon/arrow-bellow.png" alt="arrow-bellow"></a>
+			</div>
+		</section>
+		<!-- ========= //End home section ========= -->
+
+		<!-- ============== Start about info ============== -->
+		<section id="about-info" class="text-center ptt100 ptb80">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 each-part wow zoomIn">
+						<p class="servise-icon icon animated" data-placement="top">
+							<img src="img/icon/img_ico_helf_check.png" alt="icon">
+						</p>
+						<p class="title">INFORMATION <br> SECURITY HEALTHCHECK</p>
+						<div class="webui-popover-content">
+							<h3 class="mtb10">Lorem ipsum dolor.</h3>
+							<p class="mtb10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deleniti?</p>
+							<a href="#">More info...</a>
+						</div>
+					</div>
+					<div class="col-sm-3 each-part wow zoomIn">
+						<p class="servise-icon icon animated" data-placement="top">
+							<img src="img/icon/img_ico_risk_management.png" alt="icon">
+						</p>
+						<p class="title">VULNERABILITY & RISK <br> MANAGEMENT</p>
+						<div class="webui-popover-content">
+							<h3 class="mtb10">Lorem ipsum dolor.</h3>
+							<p class="mtb10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deleniti?</p>
+							<a href="#">More info...</a>
+						</div>
+					</div>
+					<div class="col-sm-3 each-part wow zoomIn">
+						<p class="servise-icon icon animated" data-placement="top">
+							<img src="img/icon/img_ico_regulatory.png" alt="icon">
+						</p>
+						<p class="title">COMPLIANCE, <br> REGULATORY AND ISMS</p>
+						<div class="webui-popover-content">
+							<h3 class="mtb10">Lorem ipsum dolor.</h3>
+							<p class="mtb10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deleniti?</p>
+							<a href="#">More info...</a>
+						</div>
+					</div>
+					<div class="col-sm-3 each-part wow zoomIn">
+						<p class="servise-icon icon animated" data-placement="top">
+							<img src="img/icon/img_ico_traning.png" alt="icon">
+						</p>
+						<p class="title">TRAINING</p>
+						<div class="webui-popover-content">
+							<h3 class="mtb10">Lorem ipsum dolor.</h3>
+							<p class="mtb10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deleniti?</p>
+							<a href="#">More info...</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ========= //End about info ========= -->
+
+		<!-- ============== Start features section ==============
+		<section id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 feature-item">
+						<div class="content text-center wow fadeInDown" data-wow-delay=".15s">
+							<p class="icon">
+								<img src="img/icon/award.png" alt="img">
+							</p>
+							<h5 class="title">Top Brands</h5>
+							<p class="info">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4 feature-item">
+						<div class="content text-center wow fadeInDown" data-wow-delay=".35s">
+							<p class="icon">
+								<img src="img/icon/camera.png" alt="img">
+							</p>
+							<h5 class="title">Great portfolio</h5>
+							<p class="info">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						</div>
+					</div>
+					<div class="col-md-4 feature-item">
+						<div class="content text-center wow fadeInDown" data-wow-delay=".55s">
+							<p class="icon">
+								<img src="img/icon/mobile.png" alt="img">
+							</p>
+							<h5 class="title">FREE SUPPORT &amp; UPDATES</h5>
+							<p class="info">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		 ========= //End features section ========= -->
+
+		<!-- ============== Start work section ============== -->
+		<section id="our-information">
+			<div class="container-fluid">
+				<!-- <h3 class="section-title wow fadeInDown">Our Work</h3> -->
+				<!-- <p class="section-info col-sm-6 col-sm-offset-3 wow fadeInDown" data-wow-delay=".25s">
+					Curious? Check out some of our recent projects.
+				</p> -->
+
+				<div class="row">
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-sm-6 col-md-4 information-item">
+						<figure class="content wow fadeIn" data-wow-delay=".65s">
+							<img src="img/work/06_new.jpg" class="img-100p" alt="work">
+
+							<div class="caption horizontal-vertical-center">
+								<span class="information-item-title">INFORMATION TECHNOLOGY & COMMUNICATIONS</span>
+							</div>
+
+							<figcaption class="caption-full-width">
+								<p class="text animated fadeInUp">
+									One of the most critical information security risks it is facing are related to gaining unfair competitive advantage, especially by intellectual property theft. Another key risk area is vulnerabilities and security gaps in produced software products, offered services, and supporting infrastructure. Their exploitation may easily lead to customer and can be highly detrimental to company reputation. While not being as heavily regulated as finance, legal, or gambling industries, numerous IT, software engineering and Telecom companies choose to obtain and uphold ISO27001 and SOC1/2 certifications, as well as to certify their products to Common Criteria. In addition, IT service providers commonly bear the grunt of their customers compliance needs contractually transferred to the provider and regularly verified with security audits from the concerned customer side. By preventing the relevant security risks, IT and Telecom companies can preserve their competitive advantage, avoid blame for security shortfalls, keep and extend the existing customer agreements, and gain new customers.
+								</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ========= //End work section ========= -->
+
+		<!-- ========= //Start text-info section ========= -->
+		<!-- <section id="text-info-section">
+			<div class="container">
+				<div class="inner">
+					<p>We have been securing and protecting our corporate clients information and data since 2001, by delivering the best level of information security services available. This has led to an enviable worldwide reputation for excellence. Some key facts about us are:</p>
+					<ul>
+						<li>Every Arhont specialist has at least 10 years experience and all are PhD or MSc level educated</li>
+						<li>Rich hands-on experience allows us to implement appropriate countermeasures in versatile environments</li>
+						<li>Continual education ensures that we are well-versed in latest information security safeguards</li>
+						<li>Experts in penetration testing and follow-up hardening of applications, systems, networks and processes</li>
+						<li>Known as the ‘Consultants - Consultant’, we mentor and train industry experts</li>
+						<li>Agile enough as an organisation to provide tailored services for each client</li>
+					</ul>
+				</div>
+			</div>
+		</section> -->
+		<!-- ========= //End text-info section ========= -->
+
+		<!-- ============== Start Testimonial ============== -->
+		<section id="testimonial" class="mtb100">
+			<div class="container">
+				<h3 class="section-title wow fadeInDown">Testimonial &amp; Recognition</h3>
+				<p class="section-info col-sm-6 col-sm-offset-3 wow fadeInDown" data-wow-delay=".25s">
+					Curious? Check out some of our recent projects
+				</p>
+				<div class="row">
+					<div class="col-sm-12">
+						<div id="client-feedback" class="owl-carousel">
+							<div class="item">
+								<p class="client-image"><img src="img/about/feedback1.jpg" alt="client"></p>
+								<div class="content">
+									<h3 class="title">Kristina Hood</h3>
+									<h4 class="position">CEO, Jazz Foundation</h4>
+									<div class="feedback">
+										<p>
+											“Seriously, we feel blessed. With the global economic crisis of recent years—and we live in a country deeply affected by the crisis”
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<p class="client-image"><img src="img/about/feedback2.jpg" alt="client"></p>
+								<div class="content">
+									<h3 class="title">Kristina Hood</h3>
+									<h4 class="position">CEO, Jazz Foundation</h4>
+									<div class="feedback">
+										<p>
+											“Seriously, we feel blessed. With the global economic crisis of recent years—and we live in a country deeply affected by the crisis”
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<p class="client-image"><img src="img/about/feedback3.jpg" alt="client"></p>
+								<div class="content">
+									<h3 class="title">Kristina Hood</h3>
+									<h4 class="position">CEO, Jazz Foundation</h4>
+									<div class="feedback">
+										<p>
+											“Seriously, we feel blessed. With the global economic crisis of recent years—and we live in a country deeply affected by the crisis”
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<p class="client-image"><img src="img/about/feedback4.jpg" alt="client"></p>
+								<div class="content">
+									<h3 class="title">Kristina Hood</h3>
+									<h4 class="position">CEO, Jazz Foundation</h4>
+									<div class="feedback">
+										<p>
+											“Seriously, we feel blessed. With the global economic crisis of recent years—and we live in a country deeply affected by the crisis”
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<p class="client-image"><img src="img/about/feedback5.jpg" alt="client"></p>
+								<div class="content">
+									<h3 class="title">Kristina Hood</h3>
+									<h4 class="position">CEO, Jazz Foundation</h4>
+									<div class="feedback">
+										<p>
+											“Seriously, we feel blessed. With the global economic crisis of recent years—and we live in a country deeply affected by the crisis”
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ========= //End Testimonial ========= -->
+
+		<!-- ============== Start Our SKILLS ============== -->
+		<section id="our-skills">
+			<!--<div class="container">
+				<h3 class="section-title wow fadeInDown">Our  SKILLS</h3>
+				<p class="section-info col-sm-6 col-sm-offset-3 wow fadeInDown" data-wow-delay=".25s">
+					Curious? Check out some of our recent projects
+				</p>
+				<div class="row mtb100">
+					<div class="col-sm-4 single-skill">
+						<div class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+							<p class="lead">Graphics Design <span class="percentag pull-right">82%</span></p>
+							<div class="progress">
+							<div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-valuetransitiongoal="82"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 single-skill">
+						<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+							<p class="lead">Web Development <span class="percentag pull-right">76%</span></p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-valuetransitiongoal="76"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4 single-skill">
+						<div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="500ms">
+							<p class="lead">App Development <span class="percentag pull-right">58%</span></p>
+							<div class="progress">
+								<div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  data-valuetransitiongoal="58"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> -->
+
+			<div class="why-kings">
+				<div class="placeholder-left"></div>
+				<div class="placeholder-right visible-md visible-lg"></div>
+				<div class="container">
+					<div class="row">
+						<!-- left part -->
+						<div class="col-md-6">
+							<div class="left-part ptt30 ptb30">
+								<h3 class="title mtb60">Why Arhonts?</h3>
+								<div role="tabpanel">
+									<!-- Nav tabs -->
+									<ul class="nav nav-tabs" role="tablist">
+										<li role="presentation" class="active">
+											<a href="#tab01" aria-controls="tab01" role="tab" data-toggle="tab">Creative Work</a>
+										</li>
+										<li role="presentation">
+											<a href="#tab02" aria-controls="tab02" role="tab" data-toggle="tab">MODERN IDEAS</a>
+										</li>
+										<li role="presentation">
+											<a href="#tab03" aria-controls="tab03" role="tab" data-toggle="tab">Experts Vision</a>
+										</li>
+									</ul>
+
+									<!-- Tab panes -->
+									<div class="tab-content">
+										<div role="tabpanel" class="tab-pane active" id="tab01">
+											<p>
+												We have been securing and protecting our corporate clients information and data since 2001, by delivering the best level of information security services available. This has led to an enviable worldwide reputation for excellence. Some key facts about us are:
+											</p>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="tab02">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam velit, accusamus, quia exercitationem quos culpa non assumenda impedit dolorum nobis, minus itaque. Ipsam ipsa aspernatur placeat, earum ipsum, voluptas deserunt modi autem debitis temporibus fugiat harum a magnam consequatur molestiae.
+											</p>
+										</div>
+										<div role="tabpanel" class="tab-pane" id="tab03">
+											<p>
+												Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis cumque possimus reprehenderit nesciunt saepe porro, unde facilis sit omnis perferendis itaque deserunt deleniti, perspiciatis impedit corporis dicta pariatur cupiditate autem, blanditiis obcaecati eum ipsa enim ducimus beatae eligendi. Natus eos animi dicta adipisci quae. Ipsum at fugiat corporis repellendus omnis.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> <!-- // left-part -->
+
+						<!-- Right part -->
+						<div class="col-sm-6 visible-md visible-lg">
+							<div class="right-part">
+							</div>
+						</div> <!-- //Right part -->
+					</div> <!-- //row -->
+				</div>
+			 </div> <!-- //container -->
+		</section>
+		<!-- ========= //End Our SKILLS ========= -->
+
+		<!-- ============== Start client section ==============
+		<section id="our-clients" class="mtb100">
+			<div class="container">
+				<h3 class="section-title wow fadeInDown">Our Clients</h3>
+				<p class="section-info col-sm-6 col-sm-offset-3 wow fadeInDown" data-wow-delay=".25s">
+					Curious? Check out some of our recent projects.
+				</p>
+				<div class="clearfix"></div>
+
+				<div class="row text-center">
+					<div class="col-md-3 col-sm-6 each-client"><a href="#"><img src="img/clients/1.png" alt="client"></a></div>
+					<div class="col-md-3 col-sm-6 each-client"><a href="#"><img src="img/clients/2.png" alt="client"></a></div>
+					<div class="col-md-3 col-sm-6 each-client"><a href="#"><img src="img/clients/3.png" alt="client"></a></div>
+					<div class="col-md-3 col-sm-6 each-client"><a href="#"><img src="img/clients/4.png" alt="client"></a></div>
+				</div>
+			</div>
+		</section>
+		========= //End client section ========= -->
+
+		<!-- ============== Start count-down ==============
+		<section id="count-down" class="text-center">
+			<div class="color-overlay ptt100 ptb100">
+				<div class="container">
+					<div class="row">
+						<div class="counter-content">
+							<div class="col-sm-4 each-counter wow zoomIn">
+								<p class="icon">
+									<img src="img/icon/clients.png" alt="img">
+								</p>
+								<span class="counter count1">8637</span>
+								<p class="title">Clients</p>
+								<p class="info">
+									Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero ace venenatis faucibus. Nullam quis ante. Donec vitae sapien ut libero ace venenatis faucibus. Nullam quis ante.
+								</p>
+							</div>
+							<div class="col-sm-4 each-counter wow zoomIn">
+								<p class="icon">
+									<img src="img/icon/projects.png" alt="img">
+								</p>
+								<span class="counter count2">564</span>
+								<p class="title">Project</p>
+								<p class="info">
+									Nullam quis ante. Donec vitae sapien ut libero ace venenatis faucibus. Nullam quis ante. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero ace venenatis faucibus.
+								</p>
+							</div>
+							<div class="col-sm-4 each-counter wow zoomIn">
+								<p class="icon">
+									<img src="img/icon/deliveries.png" alt="img">
+								</p>
+								<span class="counter count3">564</span>
+								<p class="title">Deliveries</p>
+								<p class="info">
+									Donec vitae sapien ut libero ace venenatis faucibus. Nullam quis ante. Donec vitae sapien ut libero ace venenatis faucibus. Maecenas nec odio et ante tincidunt tempus.  Nullam quis ante.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		========= //End count-down ========= -->
+
+		<section id="testimonial" class="mtb100">
+			<div class="container">
+				<h3 class="section-title wow fadeInDown">Certificates &amp; Books</h3>
+				<p class="section-info col-sm-6 col-sm-offset-3 wow fadeInDown" data-wow-delay=".25s">
+					Curious? Check out some of our recent projects
+				</p>
+				<div class="owl-carousel" id="book-certificates-slider">
+					<div class="item">
+						<a href=""><img src="img/books/01.png" alt="img" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/books/02.png" alt="img" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/books/03.png" alt="img" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/books/04.png" alt="img" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/books/01.png" alt="img" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/books/02.png" alt="img" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/books/03.png" alt="img" class="img-responsive"></a>
+					</div>
+					<div class="item">
+						<a href=""><img src="img/books/04.png" alt="img" class="img-responsive"></a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- ============== Start about info ============== -->
+		<!-- <section id="about-info" class="text-center ptt100 ptb80">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-6 each-part wow zoomIn">
+						<p class="icon servise-icon img_ico_certificates animated" data-placement="top"></p>
+						<div class="webui-popover-content">
+							<h3 class="mtb10">Lorem ipsum dolor.</h3>
+							<p class="mtb10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deleniti?</p>
+							<a href="#">More info...</a>
+						</div>
+						<p class="title">CERTIFICATES</p>
+						<p class="text">
+							RSA Wireless Security Survey 2008<br>
+							More bad news in the post<br>
+							Trojans: worse than a virus<br>
+							Airwave hackers spark computer alert<br>
+							Building Secure Wireless Networks<br>
+							Why should you go to Defcon<br>
+							Broadband Insecurities<br>
+							Broadband Insecurities
+						</p>
+					</div>
+					<div class="col-sm-6 each-part wow zoomIn">
+						<p class="icon servise-icon img_ico_books animated" data-placement="top"></p>
+						<div class="webui-popover-content">
+							<h3 class="mtb10">Lorem ipsum dolor.</h3>
+							<p class="mtb10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, deleniti?</p>
+							<a href="#">More info...</a>
+						</div>
+						<p class="title">BOOKS</p>
+						<p class="text">
+							Assessing Information Security: Strategies, <br>Tactics, Logic and Framework<br>
+							Hacking Exposed Cisco Networks<br>
+							Wi-Foo: The Secrets of Wireless Hacking<br>
+							Network Security: The Complete Reference<br>
+							Hacking Wireless: Seguridad de redes inalambricas<br>
+							Wi-Foo: Piratage et defence des reseaux sans fil
+						</p>
+					</div>
+				</div>
+			</div>
+		</section> -->
+		<!-- ========= //End about info ========= -->
+
+		<!-- ============== Start twitter section ============== -->
+		<section id="twitter">
+			<div>
+				<a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+				<a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-8 col-xs-offset-2">
+							<div class="twitter-icon text-center hidden-sm hidden-xs">
+								<p>
+									<img src="img/icon/twitter.png" alt="twitter" class="img-100p">
+								</p>
+							</div>
+							<div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+										<p class="info">Check out 'Kings multipurpose html template' on #Shapebootstrap</p>
+										<p class="link"> by <span>@themeum</span><a href="#"> #Shapebootstrap http://tllg.net/8szMvf5t</a></p>
+									</div>
+									<div class="item">
+										<p class="info">Check out 'Kings multipurpose html template' on #Shapebootstrap</p>
+										<p class="link"> by <span>@themeum</span><a href="#"> #Shapebootstrap http://tllg.net/8szMvf5t</a></p>
+									</div>
+									<div class="item">
+										<p class="info">Check out 'Kings multipurpose html template' on #Shapebootstrap</p>
+										<p class="link"> by <span>@themeum</span><a href="#"> #Shapebootstrap http://tllg.net/8szMvf5t</a></p>
+									</div>
+								</div>
+							</div> <!-- //twitter-carousel -->
+						</div>
+					</div> <!-- //row -->
+				</div> <!-- //container -->
+			</div>
+		</section>
+		<!-- ========= //End twitter section ========= -->
+
+		<!-- ============== Start footer ============== -->
+		<section id="footer">
+			<div class="color-overlay">
+				<div class="container">
+					<div class="row footer-adress">
+						<div class="col-md-4">
+							<div class="footer-logo">
+								<div class="transform-middle">
+									<img src="img/logo-footer.png" alt="logo">
+								</div>
+							</div>
+							<!-- <ul class="nav-footer list-inline mtb30">
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="about.html">About</a></li>
+								<li><a href="services.html">Services</a></li>
+								<li><a href="portfolio.html">Portfolio</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="contact.html">Contact</a></li>
+							</ul> -->
+							<!-- <ul class="social-icon-footer list-inline">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul> -->
+						</div>
+
+						<div class="col-md-4">
+							<div class="address-wrap">
+								<div class="transform-middle">
+									<address>
+										<strong>Address:</strong>
+										Regus, Highbridge<br>
+										Oxford Road<br>
+										Uxbridge, UB8 1HR
+									</address>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<div class="address-wrap">
+								<div class="transform-middle">
+									<address>
+										<strong>Phone number:</strong>
+										+44 (0) 870 44 31337 (UK)<br>
+										+44 (0) 203 6277092 (Int)<br>
+
+										<strong>Email:</strong>
+										<a href="mailto:info@arhont.com">info@arhont.com</a>
+									</address>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			 </div>
+
+			<!-- copyright -->
+			<div class="copyright">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="info text-center">
+								&copy; Copyright by Arhonts 2016
+							</p>
+						</div>
+					</div> <!-- //row -->
+				</div> <!-- //container -->
+			</div> <!-- //end copyright -->
+		</section>
+		<!-- ========= //End footer ========= -->
+
+	</div> <!-- //end wrapper -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- animation effects -->
+  <script src="js/wow.min.js"></script>
+  <!-- count-down -->
+  <script src="js/jquery.inview.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <!-- content slider -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- lightbox -->
+  <script src="js/lightbox.min.js"></script>
+  <!-- smooth scrool -->
+  <script src="js/smoothscroll.js"></script>
+  <script src="js/jquery.webui-popover.min.js"></script>
+  <!-- custom js -->
+  <script src="js/app.js"></script>
+</body>
+</html>

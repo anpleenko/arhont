@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>KINGS | Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="A responsive website template made exclusively by themeum">
+	<meta name="author" content="themeum">
+	<!-- FAVICON -->
+	
+	<link rel="shortcut icon" href="favicons/favicon.ico">
+	<meta name="msapplication-config" content="favicons/browserconfig.xml">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link rel="stylesheet" href="css/lightbox.css">
+	<link rel="stylesheet" href="css/main.css">
+
+	<!--[if lt IE 9]>
+	<script src="js/html5shiv.js"></script>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+	
+	<!-- Header scripts -->
+	<script src="js/modernizr-2.8.3.min.js"></script>
+	<script src="js/queryloader2.min.js"></script>
+
+	<!-- =========================
+	   Preloader
+	============================== -->
+	<script>
+	    window.addEventListener('DOMContentLoaded', function() {
+	        "use strict";
+	        new QueryLoader2(document.querySelector("body"), {
+	            barColor: "#e64e3e",
+	            backgroundColor: "#fff",
+	            percentage: true,
+	            barHeight: 1,
+	            minimumTime: 200,
+	            fadeOutTime: 1000
+	        });
+	    });
+	</script>
+</head> <!-- head -->
+<body>
+	
+	<!-- ============== start wrapper  ============== -->
+	<div id="wrapper">
+		<!-- main-nav -->
+		<div class="main-nav other-page-nav">
+			<div class="logo-left">
+				<a href="index.html" class="pull-left">
+					<img src="img/logo-header.png" alt="logo">
+				</a>
+
+				<a href="javascript:void(0)" class="menu-trigger">
+			       <i class="fa fa-bars"></i>
+			    </a>
+			</div>
+			<div class="languages">
+				<ul class="list-inline">
+					<li class="active"><a href="#">EN</a></li>
+					<li class="disabled"><a href="#">FR</a></li>
+					<li class=""><a href="#" class="btn btn-primary btn-main">Feedback</a></li>
+				</ul>
+			</div>
+		</div> <!-- //end main-nav -->
+
+		<!--=========================
+			Start area for Menu 
+		============================== -->
+		<nav class="nav-menu">
+			 <div class="nav-header overflow">
+			 	<a href="index.html"><img src="img/logo-nav.png" class="pull-left" alt="logo"></a>
+			 	<p class="dismiss-button pull-right animated zoomIn">
+			 		<img src="img/dismiss.png" alt="dismiss">
+			 	</p>
+			 </div>
+			<ul>
+				<li><a href="index.html">home <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li><a href="about.html">About <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li><a href="services.html">Service <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li class="active"><a href="portfolio.html">Portfolio <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li><a href="blog.html">Blog <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+				<li><a href="contact.html">Contact <span class="info animated fadeInRight">We are Jollyany and we make really beautiful and amazing stuff.</span></a></li>
+			</ul>
+		</nav>
+		
+		<!-- End of menu area -->
+
+
+		<!-- ============== Start portfolio section ============== -->
+		<section id="portfolio-section" class="text-center">
+			<div class="color-overlay ptt80 ptb80">
+			 	<div class="container">
+			 		<h3 class="section-title wow fadeInDown">Portfolio</h3>
+			 		<p class="section-info col-sm-6 col-sm-offset-3 wow fadeInDown" data-wow-delay=".25s">
+			 			Yes it's true. Nice design excites us.
+			 		</p>
+			 		<div class="row">
+			 			<div class="col-sm-6 left-part">
+			 				<p class="mtb40"><img src="img/portfolio/desktop1.png" class="img-100p" alt="desktop"></p>
+			 				<h3 class="title">Red Corporate</h3>
+			 				<div class="details">
+			 					<p>Business Portfolio</p>
+			 					<p>Clients: Wiski</p>
+			 				</div>
+			 			</div>
+			 			<div class="col-sm-6 right-part">
+			 				<p class="mtb40"><img src="img/portfolio/desktop2.png" class="img-100p" alt="desktop"></p>
+			 				<h3 class="title">Underworld</h3>
+			 				<div class="details">
+			 					<p>Business Portfolio</p>
+			 					<p>Clients: Wiski</p>
+			 				</div>
+			 			</div>
+			 		</div> <!-- //row -->
+			 	</div>
+			 </div> <!-- //container -->
+		</section>
+		<!-- ========= //End portfolio section ========= -->
+
+
+
+		<!-- ============== Start filterable-portfolio ============== -->
+		<section id="filterable-portfolio" class="mtb100 ptt80">
+			<div class="container">
+				<div class="row">
+					<ul class="work-filter text-center list-inline mtb40 text-uppercase">       
+						<li><a class="active" href="#" data-filter="*"> All</a></li> 
+						<li><a href="#" data-filter=".branding">branding</a></li>
+						<li><a href="#" data-filter=".ecommerce">ecommerce</a></li>
+						<li><a href="#" data-filter=".photography">photography</a></li>
+						<li><a href="#" data-filter=".design ">design </a></li>
+						<li><a href="#" data-filter=".development">development</a></li>
+					</ul>
+					<div class="all-work-items">
+						<div class="work-item branding">
+							<figure class="content wow fadeIn" data-wow-delay=".15s">
+								<img src="img/portfolio/01.jpg" class="img-100p" alt="work">
+								<figcaption class="caption-full-width">
+									<div class="caption horizontal-vertical-center">
+										<p class="icon animated fadeInDown"><a data-lightbox="lightbox" href="img/portfolio/01.jpg"><img src="img/work/icon.png" alt="icon"></a></p>
+										<p class="title animated fadeInUp">jerky</p>
+									</div>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="work-item branding development">
+							<figure class="content wow fadeIn" data-wow-delay=".25s">
+								<img src="img/portfolio/02.jpg" class="img-100p" alt="work">
+								<figcaption class="caption-full-width">
+									<div class="caption horizontal-vertical-center">
+										<p class="icon animated fadeInDown"><a data-lightbox="lightbox" href="img/portfolio/02.jpg"><img src="img/work/icon.png" alt="icon"></a></p>
+										<p class="title animated fadeInUp">shoulder</p>
+									</div>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="work-item ecommerce development">
+							<figure class="content wow fadeIn" data-wow-delay=".35s">
+								<img src="img/portfolio/03.jpg" class="img-100p" alt="work">
+								<figcaption class="caption-full-width">
+									<div class="caption horizontal-vertical-center">
+										<p class="icon animated fadeInDown"><a data-lightbox="lightbox" href="img/portfolio/03.jpg"><img src="img/work/icon.png" alt="icon"></a></p>
+										<p class="title animated fadeInUp">kevin</p>
+									</div>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="work-item design photography branding">
+							<figure class="content wow fadeIn" data-wow-delay=".45s">
+								<img src="img/portfolio/04.jpg" class="img-100p" alt="work">
+								<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"><a data-lightbox="lightbox" href="img/portfolio/04.jpg"><img src="img/work/icon.png" alt="icon"></a></p>
+									<p class="title animated fadeInUp">fatback</p>
+								</div>
+							</figcaption>
+							</figure>
+						</div>
+						<div class="work-item photography design">
+							<figure class="content wow fadeIn" data-wow-delay=".55s">
+								<img src="img/portfolio/05.jpg" class="img-100p" alt="work">
+								<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"><a data-lightbox="lightbox" href="img/portfolio/05.jpg"><img src="img/work/icon.png" alt="icon"></a></p>
+									<p class="title animated fadeInUp">tongue</p>
+								</div>
+							</figcaption>
+							</figure>
+						</div>
+						<div class="work-item development branding">
+							<figure class="content wow fadeIn" data-wow-delay=".65s">
+								<img src="img/portfolio/06.jpg" class="img-100p" alt="work">
+								<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"><a data-lightbox="lightbox" href="img/portfolio/06.jpg"><img src="img/work/icon.png" alt="icon"></a></p>
+									<p class="title animated fadeInUp">Ribeye</p>
+								</div>
+							</figcaption>
+							</figure>
+						</div>
+						<div class="work-item development  design">
+							<figure class="content wow fadeIn" data-wow-delay=".75s">
+								<img src="img/portfolio/07.jpg" class="img-100p" alt="work">
+								<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"><a data-lightbox="lightbox" href="img/portfolio/07.jpg"><img src="img/work/icon.png" alt="icon"></a></p>
+									<p class="title animated fadeInUp">sausage</p>
+								</div>
+							</figcaption>
+							</figure>
+						</div>
+						<div class="work-item photography branding">
+							<figure class="content wow fadeIn" data-wow-delay=".85s">
+								<img src="img/portfolio/08.jpg" class="img-100p" alt="work">
+								<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"><a data-lightbox="lightbox" href="img/portfolio/08.jpg"><img src="img/work/icon.png" alt="icon"></a></p>
+									<p class="title animated fadeInUp">rump</p>
+								</div>
+							</figcaption>
+							</figure>
+						</div>
+						<div class="work-item photography branding">
+							<figure class="content wow fadeIn" data-wow-delay=".95s">
+								<img src="img/portfolio/09.jpg" class="img-100p" alt="work">
+								<figcaption class="caption-full-width">
+								<div class="caption horizontal-vertical-center">
+									<p class="icon animated fadeInDown"><a data-lightbox="lightbox" href="img/portfolio/09.jpg"><img src="img/work/icon.png" alt="icon"></a></p>
+									<p class="title animated fadeInUp">MAGLIT</p>
+								</div>
+							</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ========= //End filterable-portfolio ========= -->
+
+
+		<!-- ============== Start call-to-action ============== -->
+		<section id="buy-now" class="call-to-action text-center">
+			<div class="color-overlay ptt80 ptb80">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="mtb30"><img src="img/services/logo.png" alt="img"></p>
+							<h3 class="mtb20 wow fadeInRight">Kings is a unique  Corporate HTML Template.</h3>
+							<h5 class="mtb40 wow fadeInRight">
+								Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+							</h5>
+							<a href="#" class="btn btn-primary btn-main wow fadeInLeft">BUY NOW</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ========= //End call-to-action ========= -->
+
+
+		<!-- ============== Start about info ============== -->
+		<section id="about-info" class="text-center ptt100 ptb80">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-3 each-part wow zoomIn">
+						<p class="icon">
+							<img src="img/icon/custom-care.png" alt="img">
+						</p>
+						<p class="title">CUSTOMER CARE</p>
+						<p class="info">
+							8654-32-9600
+						</p>
+					</div>
+					<div class="col-sm-3 each-part wow zoomIn">
+						<p class="icon">
+							<img src="img/icon/mail-info.png" alt="img">
+						</p>
+						<p class="title">MAIL INFO</p>
+						<p class="info">
+							info@Blinker.com
+						</p>
+					</div>
+					<div class="col-sm-3 each-part wow zoomIn">
+						<p class="icon">
+							<img src="img/icon/work-time.png" alt="img">
+						</p>
+						<p class="title">Work Time</p>
+						<p class="info">
+							Mon. - Fri. (10:00 - 22:00)
+						</p>
+					</div>
+					<div class="col-sm-3 each-part wow zoomIn">
+						<p class="icon">
+							<img src="img/icon/work-place.png" alt="img">
+						</p>
+						<p class="title">Work Place</p>
+						<p class="info">
+							19th Ave New York <br>
+							<small>NY 95822, USA</small>
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- ========= //End about info ========= -->
+
+
+		
+		<!-- ============== Start twitter section ============== -->
+		<section id="twitter">
+			<div>
+				<a class="twitter-left-control" href="#twitter-carousel" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+				<a class="twitter-right-control" href="#twitter-carousel" role="button" data-slide="next"><i class="fa fa-angle-right"></i></a>
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-8 col-xs-offset-2">
+							<div class="twitter-icon text-center hidden-sm hidden-xs">
+								<p>
+									<img src="img/icon/twitter.png" alt="twitter" class="img-100p">
+								</p>
+							</div>
+							<div id="twitter-carousel" class="carousel slide" data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="item active wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
+										<p class="info">Check out 'Kings multipurpose html template' on #Shapebootstrap</p>
+										<p class="link"> by <span>@themeum</span><a href="#"> #Shapebootstrap http://tllg.net/8szMvf5t</a></p>
+									</div>
+									<div class="item">
+										<p class="info">Check out 'Kings multipurpose html template' on #Shapebootstrap</p>
+										<p class="link"> by <span>@themeum</span><a href="#"> #Shapebootstrap http://tllg.net/8szMvf5t</a></p>
+									</div>
+									<div class="item">                                
+										<p class="info">Check out 'Kings multipurpose html template' on #Shapebootstrap</p>
+										<p class="link"> by <span>@themeum</span><a href="#"> #Shapebootstrap http://tllg.net/8szMvf5t</a></p>
+									</div>
+								</div>                        
+							</div> <!-- //twitter-carousel -->                 
+						</div>
+					</div> <!-- //row -->
+				</div> <!-- //container -->
+			</div>
+		</section>
+		<!-- ========= //End twitter section ========= -->
+
+
+		<!-- ============== Start footer ============== -->
+		<section id="footer">
+			<div class="color-overlay ptt80">
+			 	<div class="container mtb50">
+			 		<div class="row">
+			 			<div class="col-sm-6 col-sm-offset-3 text-center">
+			 				<p class="footer-logo mtb30"><img src="img/logo-footer.png" alt="logo"></p>
+			 				<ul class="nav-footer list-inline mtb30">
+			 					<li class="active"><a href="index.html">Home</a></li>
+			 					<li><a href="about.html">About</a></li>
+			 					<li><a href="services.html">Services</a></li>
+			 					<li><a href="portfolio.html">Portfolio</a></li>
+			 					<li><a href="blog.html">Blog</a></li>
+			 					<li><a href="contact.html">Contact</a></li>
+			 				</ul>
+			 				<ul class="social-icon-footer list-inline">
+			 					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+			 					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+			 					<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+			 					<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+			 					<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+			 				</ul>
+			 			</div>
+			 		</div> <!-- //row -->
+			 	</div>
+			 </div> <!-- //container -->
+
+			<!-- copyright -->
+			<div class="copyright">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-6 col-sm-offset-4">
+							<p class="info">
+								&copy; Copyright Kings 2015.  Designed by <a href="https://www.themeum.com" class="designed-by" target="_blank">Themeum</a>
+							</p>
+						</div>
+					</div> <!-- //row -->
+				</div> <!-- //container -->
+			</div> <!-- //end copyright -->
+		</section>
+		<!-- ========= //End footer ========= -->
+
+	</div> <!-- //end wrapper -->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- animation effects -->
+  <script src="js/wow.min.js"></script>
+  <!-- count-down -->
+  <script src="js/jquery.inview.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <!-- filter portfolio & lightbox -->
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/lightbox.min.js"></script>
+  <!-- content slider -->
+  <script src="js/owl.carousel.min.js"></script>
+  <!-- smooth scrool -->
+  <script src="js/smoothscroll.js"></script>
+  <!-- custom js -->
+  <script src="js/app.js"></script>
+  
+</body>
+</html>
